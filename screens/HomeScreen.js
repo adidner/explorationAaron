@@ -11,6 +11,12 @@ export default class homeScreen extends React.Component {
   static navigationOptions = {
     title: 'Home',
   };
+
+  change(x){
+    return x * 10;
+  }
+
+
   render() {
     return (
 
